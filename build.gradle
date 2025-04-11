@@ -1,0 +1,33 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        compose_version = '1.4.0'
+        kotlin_version = '1.8.10'  // Downgraded to match compose compiler requirements
+        sqldelight_version = '1.5.5'
+        hilt_version = '2.44'
+    }
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://oss.sonatype.org/content/repositories/snapshots/"
+        }
+        maven{url = "https://jitpack.io"}
+        // Add the Cash repository for SQLDelight
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+        maven { url 'https://plugins.gradle.org/m2/' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.1.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.10'  // Changed to compatible version
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
+        classpath "com.squareup.sqldelight:gradle-plugin:$sqldelight_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

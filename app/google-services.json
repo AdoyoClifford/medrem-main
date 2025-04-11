@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "778399618498",
+    "project_id": "medrem-cd30b",
+    "storage_bucket": "medrem-cd30b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778399618498:android:46fd322cbdf1831655b25b",
+        "android_client_info": {
+          "package_name": "com.atitienei_daniel.reeme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-RHnXonkAYkG4R5pEEGJNtir5Bpnp8MU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778399618498:android:4275285c70ff83a955b25b",
+        "android_client_info": {
+          "package_name": "com.lydia.medrem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-RHnXonkAYkG4R5pEEGJNtir5Bpnp8MU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
