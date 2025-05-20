@@ -1,33 +1,63 @@
-# MedRem
+# 💊 MedRem - Medication Reminder App
 
 ![Kotlin](https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
+![Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4.svg?style=for-the-badge&logo=jetpack-compose&logoColor=white)
 
-Is a reminder application.
+## 📱 About
+MedRem is a modern medication reminder application built with the latest Android technologies. It helps users track their medication schedules, set recurring reminders, and never miss a dose again.
 
-## Tech Stack
+## ✨ Features
 
-* MVVM Architecture
-* Kotlin
-* Jetpack Compose
-* Material Design 2
-* Dagger Hilt 
-* Coroutines
-* Flow
-* Notifications
-* Navigation
-* AndroidX
-* SqlDelight
+- 🔔 **Smart Notifications** - Receive timely medication reminders
+- 🔄 **Recurring Schedules** - Create daily, weekly, or custom repeating reminders
+- 🎨 **Color Coding** - Assign different colors to different medications
+- 📊 **Adherence Tracking** - View your medication adherence stats
+- 🏆 **Streak Tracking** - Monitor your consistent medication-taking streaks
+- 📈 **Insights & Feedback** - Get helpful insights based on your adherence patterns
+- 🌙 **Dark Theme** - Full dark mode support
+- 🔒 **Privacy Focused** - All data stored locally on device
 
-## Screens
-![Screenshot_2022-06-30-12-05-26-02_35aafdd6c38b496dd9667bf9b0b8b7fe](https://user-images.githubusercontent.com/62098466/176639267-70fd2610-cd24-40c4-adb8-f5f84753a170.jpg)
-![Screenshot_2022-06-30-12-05-31-13_35aafdd6c38b496dd9667bf9b0b8b7fe](https://user-images.githubusercontent.com/62098466/176639269-91440470-6e47-48de-b7f5-9dd0f4098e25.jpg)
-![Screenshot_2022-06-30-12-05-38-15_35aafdd6c38b496dd9667bf9b0b8b7fe](https://user-images.githubusercontent.com/62098466/176639271-c12d5999-0120-44fb-abae-e250e0ab5685.jpg)
+## 🛠️ Tech Stack
 
-## Did you find this repository helpful?
-Don't forget give a star.
+* **Architecture Pattern**
+  * MVVM (Model-View-ViewModel)
 
-## Didn't you?
-Then fork this repo, make it better and don't forgot give a STAR.
+* **UI**
+  * Jetpack Compose
+  * Material Design 3
+  * Dynamic Theming
 
+* **Backend & Data**
+  * SqlDelight
+  * Kotlin Coroutines
+  * Flow
+  * Kotlin Serialization
+
+* **Dependency Injection**
+  * Dagger Hilt
+  
+* **Other Libraries**
+  * AndroidX
+  * Android Notifications API
+  * Compose Navigation
+
+## 📱 Screenshots
+
+### Edit Reminder Screen
+![Edit reminder screen with medication details](![image1](https://github.com/github-copilot/chat/attachments/775887))
+
+### Adherence Tracking Screen
+![Adherence tracking and streak dashboard](![image2](https://github.com/github-copilot/chat/attachments/775836))
+
+### Notification System
+![Medication reminder notifications](![image3](https://github.com/github-copilot/chat/attachments/775798))
+
+## 🚀 Installation
+
+The app is currently in development. To try it out:
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/AdoyoClifford/medrem-main.git
