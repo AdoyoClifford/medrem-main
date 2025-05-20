@@ -46,13 +46,14 @@ MedRem is a modern medication reminder application built with the latest Android
 ## 📱 Screenshots
 
 ### Edit Reminder Screen
-![Edit reminder screen with medication details](https://raw.githubusercontent.com/AdoyoClifford/medrem-main/main/screenshots/edit_reminder.png)
+![Edit reminder screen with medication details](app/screenshots/edit%20reminder.jpg)
 
 ### Adherence Tracking Screen
-![Adherence tracking and streak dashboard](https://raw.githubusercontent.com/AdoyoClifford/medrem-main/main/screenshots/adherence_tracking.png)
+![Adherence tracking and streak dashboard](app/screenshots/statistics.jpg)
 
 ### Notification System
-![Medication reminder notifications](https://raw.githubusercontent.com/AdoyoClifford/medrem-main/main/screenshots/notification.png)
+![Medication reminder notifications](app/screenshots/notification.jpg)
+
 ## 🚀 Installation
 
 The app is currently in development. To try it out:
@@ -60,3 +61,4 @@ The app is currently in development. To try it out:
 1. Clone the repository
    ```bash
    git clone https://github.com/AdoyoClifford/medrem-main.git
+````
