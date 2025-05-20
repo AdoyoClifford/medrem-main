@@ -46,13 +46,13 @@ MedRem is a modern medication reminder application built with the latest Android
 ## 📱 Screenshots
 
 ### Edit Reminder Screen
-![Edit reminder screen with medication details](app/screenshots/edit%20reminder.jpg)
+<img src="app/screenshots/edit%20reminder.jpg" alt="Edit reminder screen with medication details" width="300"/>
 
 ### Adherence Tracking Screen
-![Adherence tracking and streak dashboard](app/screenshots/statistics.jpg)
+<img src="app/screenshots/statistics.jpg" alt="Adherence tracking and streak dashboard" width="300"/>
 
 ### Notification System
-![Medication reminder notifications](app/screenshots/notification.jpg)
+<img src="app/screenshots/notification.jpg" alt="Medication reminder notifications" width="300"/>
 
 ## 🚀 Installation
 
